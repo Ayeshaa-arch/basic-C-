@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b ,c;
+	cout<<"Enter three numbers : ";
+	cin>>a>>b>>c;
+	if(a==b)
+		if(b==c)
+		cout<<"All numbers are equal";
+		else
+		cout<<"numbers are different";
+	else
+	cout<<"Numbers are different";
+	return 0;
+}
+
